@@ -11,6 +11,7 @@ public class NewTest {
   
   public void Program() {
 	  WebDriver driver = new ChromeDriver();
+	  System.out.println("This is code to be committed");
 	  driver.get("https://adactinhotelapp.com/");
 	  Loginpage lg= new Loginpage(driver);
 	  lg.enterUsername("Harikabalusu");
